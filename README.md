@@ -1,3 +1,9 @@
-# omnikassa-onboarding-e2e-testing
-npm install
-npm run start
+# Testing with Cypress
+
+```sh
+$ npm install
+```
+
+```sh
+$ npm run start
+```
