@@ -4,7 +4,7 @@ describe('OmniKassa Onboarding Flow - Online', () => {
     cy.visit('https://buccaneers-edge-router-stub.apps.pcf-t02-we.rabobank.nl/omnikassa-dashboard-login/')
 
     // cy.get('#login').type('322425').should('have.value', '322425')
-    cy.get('#login').type('196515').should('have.value', '196515')
+    cy.get('#login').type('196515').should('have.value', '196515') 
 
     cy.get('#target').select('OmniKassa Onboarding').should('have.value', 'onboarding')
 
